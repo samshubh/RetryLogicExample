@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RetryLogic in TestNG" verbose="1" >
+  
+  
+  <listeners>
+  
+    <listener class-name="analyzer.MyTransformer"/>
+  
+  </listeners>
+  
+  <test name="RetryLogic in TestNG during Run time" >
+    <classes>
+      
+      <class name="mytest.MyTestClass"/>
+    
+    </classes>
+    
+ </test>
+</suite>
